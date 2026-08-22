@@ -1,0 +1,27 @@
+---
+layout: default
+title: "Updates — SlashBuilder"
+description: "Shipped milestones from Hearth and BenixOS."
+permalink: /updates/
+---
+
+<section class="hero">
+  <div class="wrap">
+    <h1>Updates</h1>
+    <p class="lede">Shipped milestones from Hearth and BenixOS. Distilled facts, not build logs — for the process, see <a href="https://dlockamy.github.io">dlockamy.github.io</a>.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <ul class="post-list">
+      {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url | relative_url }}" class="post-list-title">{{ post.title }}</a>
+        <span class="post-list-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+        {% if post.excerpt %}<p class="post-list-excerpt">{{ post.excerpt | strip_html | truncate: 180 }}</p>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
