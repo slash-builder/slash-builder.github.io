@@ -20,3 +20,13 @@ github_username: slash-builder
 theme: minima
 plugins:
   - jekyll-feed
+
+# CONTEXT.md and README.md are repo-orientation docs for whoever works on
+# this repo next, not site content -- exclude them from the build so they
+# don't show up as public nav pages.
+exclude:
+  - CONTEXT.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - Jenkinsfile
