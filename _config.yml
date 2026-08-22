@@ -1,0 +1,22 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+
+title: "SlashBuilder"
+email: dlockamy@lockamystudios.com
+description: >-
+  SlashBuilder is Lockamy Studios' open-source organization. It stewards
+  Hearth, the open protocol for distributed personal resources, and BenixOS,
+  the operating system built around it — spiritual successors to Plan 9 and
+  BeOS. SlashBuilder sells nothing; it publishes.
+baseurl: ""
+url: "https://slashbuilder.com"
+github_username: slash-builder
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
