@@ -17,7 +17,9 @@ url: "https://slashbuilder.com"
 github_username: slash-builder
 
 # Build settings
-theme: minima
+# No theme -- fully custom _layouts/default.html + assets/main.css,
+# built on Digital Zen tokens with a distinct (non-minima, non-Quickring)
+# treatment. See CONTEXT.md.
 plugins:
   - jekyll-feed
 
