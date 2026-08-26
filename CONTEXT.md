@@ -2,10 +2,13 @@
 # SlashBuilder OSS-org site
 
 **What it is:** Public website for SlashBuilder, Lockamy Studios' open-source
-organization, live at slashbuilder.com. Stewards Hearth (the protocol) and
-BenixOS (the OS) as peer projects — see the site content and
+organization, live at slashbuilder.com. Stewards Hearth (the protocol),
+BenixOS (the OS), and bitchain (the content-addressed storage kit) as peer
+projects — see the site content and
 `dlockamy/context/cross-repo-context.md`'s Corporate structure section for
-the full, locked studio-wide record.
+the full, locked studio-wide record. bitchain joined the day after this site
+shipped, when `clusterzer0` was dissolved (2026-08-23) and the storage stack
+transferred into `slash-builder/`; see `dlockamy/context/projects/slash-builder.md`.
 
 **Stack:** Jekyll, `minima` theme (bare — matches the current state of
 sibling project sites `benixos.github.io` and `thunderhead-systems.github.io`;

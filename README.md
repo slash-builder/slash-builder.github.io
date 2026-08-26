@@ -3,12 +3,15 @@
 Public website for **SlashBuilder** — Lockamy Studios' open-source
 organization, live at [slashbuilder.com](https://slashbuilder.com).
 
-SlashBuilder stewards two peer, open-source projects:
+SlashBuilder stewards three peer, open-source projects:
 
 - **Hearth** — the open protocol for distributed personal resources,
   9P-inspired.
 - **BenixOS** — the operating system built around Hearth, a spiritual
   successor to Plan 9 and BeOS.
+- **bitchain** — the content-addressed storage kit: an embeddable Rust
+  library, CLI, and desktop inspection tool, consumed by Quickring,
+  BenixOS, and other downstream projects.
 
 SlashBuilder sells nothing. [Quickring](https://quickring.me) is the
 commercial layer built on top of what SlashBuilder publishes.

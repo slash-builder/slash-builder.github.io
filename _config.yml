@@ -10,9 +10,9 @@ author: "SlashBuilder"
 email: dlockamy@lockamystudios.com
 description: >-
   SlashBuilder is Lockamy Studios' open-source organization. It stewards
-  Hearth, the open protocol for distributed personal resources, and BenixOS,
-  the operating system built around it — spiritual successors to Plan 9 and
-  BeOS. SlashBuilder sells nothing; it publishes.
+  Hearth, BenixOS, and bitchain — the open protocol, the OS built around
+  it, and its content-addressed storage kit. SlashBuilder sells nothing;
+  it publishes.
 baseurl: ""
 url: "https://slashbuilder.com"
 github_username: slash-builder

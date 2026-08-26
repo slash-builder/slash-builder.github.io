@@ -1,17 +1,18 @@
 ---
 layout: default
-title: "SlashBuilder — the open-source organization behind Hearth and BenixOS"
+title: "SlashBuilder — the open-source organization behind Hearth, BenixOS, and bitchain"
 description: >-
   SlashBuilder is Lockamy Studios' open-source organization. It publishes
-  Hearth, the open protocol for distributed personal resources, and
-  BenixOS, the operating system built around it.
+  Hearth, the open protocol for distributed personal resources; BenixOS,
+  the operating system built around it; and bitchain, its content-addressed
+  storage kit.
 ---
 
 <section class="hero">
   <div class="wrap">
     <h1>SlashBuilder</h1>
     <p class="lede">
-      <strong>The open-source organization behind Hearth and BenixOS.</strong>
+      <strong>The open-source organization behind Hearth, BenixOS, and bitchain.</strong>
       Apache-2.0 licensed, sells nothing, forkable by anyone — including us.
     </p>
   </div>
@@ -21,7 +22,7 @@ description: >-
   <div class="wrap">
     <span class="eyebrow">what we build</span>
     <p class="section-note">
-      Two peer projects. Neither is subordinate to the other — the Apache
+      Three peer projects. None is subordinate to the others — the Apache
       Software Foundation hosting Kafka and Spark side by side, not a
       company with a flagship and an afterthought.
     </p>
@@ -44,6 +45,17 @@ description: >-
           Kit-model architecture. Runs on Thunderhead-class hardware, the
           general term for a home-server appliance — the way "NAS" or
           "router" name a category, not a product.
+        </p>
+      </div>
+      <div class="project-card">
+        <h3>bitchain</h3>
+        <p>
+          A content-addressed storage kit — an embeddable Rust library,
+          CLI, and desktop inspection tool. BLAKE3 hashing and
+          content-defined chunking give cryptographic integrity: identity
+          is bound to the bytes, not to a location or custodian. Consumed
+          by Quickring, BenixOS, and other downstream projects that need
+          immutable, verifiable storage.
         </p>
       </div>
     </div>
